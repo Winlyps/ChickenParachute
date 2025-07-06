@@ -1,0 +1,5 @@
+name: ChickenParachute
+version: '1.0-SNAPSHOT'
+main: haxlyst.chickenParachute.ChickenParachute
+api-version: '1.20'
+authors: [ Haxlyst ]
