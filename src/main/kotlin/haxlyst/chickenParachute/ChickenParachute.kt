@@ -5,7 +5,7 @@ import org.bukkit.plugin.java.JavaPlugin
 class ChickenParachute : JavaPlugin() {
 
     override fun onEnable() {
-        // Plugin startup logic
+        server.pluginManager.registerEvents(PlayerMoveListener(), this)
     }
 
     override fun onDisable() {
